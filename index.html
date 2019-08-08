@@ -15,28 +15,34 @@
 <body>
     <!-- Landing (full-page first-section) -->
     <div class="container-fluid" id="wrapper-landing">
-        <div class="d-flex" id="wrapper-navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top" id="wrapper-navbar">
             <div class="mr-auto">
                 <img class="" id="corp-logo" src="img/lujo-logo.png">
             </div>
-            <ul class="nav my-auto">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Noticias</a>
+                    <a class="nav-link js-scroll-trigger" href="#noticias">Noticias</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Vlog</a>
+                    <a class="nav-link js-scroll-trigger" href="#vlog">Vlog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Cursos</a>
+                    <a class="nav-link js-scroll-trigger" href="#cursos">Cursos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link js-scroll-trigger" href="#contacto">Contacto</a>
                 </li>
             </ul>
         </div>
+        </nav>
         <div class="text-center" id="wrapper-land-text">
             <h4>Centro argentino de investigación y formación en Psico-Bio-Análisis Decodificativo (PBAD)</h4>
         </div>
@@ -128,10 +134,10 @@
     <!-- Fin VLOG -->
 
     <!-- CURSOS -->
-    <section id="noticias">
+    <section id="cursos">
         <div class="container " id="wrapper-news">
             <div class="row justify-content-center" id="wrapper-title-news">
-                <h3>Últimas noticias</h3>
+                <h3>Cursos</h3>
             </div>
             <div class="row justify-content-around">
                 <img class="img-news" src="https://picsum.photos/250" title="Noticia 1">
@@ -241,6 +247,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="js/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

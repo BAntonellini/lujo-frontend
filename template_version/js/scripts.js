@@ -8,10 +8,10 @@ $(function() {
   $(window).scroll(function() {
   if ($(window).scrollTop() > 1500) {
     nav.classList.remove("bg-transparent");
-    nav.classList.add("bg-dark");
+    nav.classList.add("bg-grey");
     logo.setAttribute("style","width:50px;");
   } else {
-    nav.classList.remove("bg-dark");
+    nav.classList.remove("bg-grey");
     nav.classList.add("bg-transparent");
     logo.setAttribute("style","width:100px;");
   }

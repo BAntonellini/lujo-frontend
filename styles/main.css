@@ -7,6 +7,10 @@ body {
     max-width: 99vw !important;
 }
 
+.bg-grey{
+    background-color:#4d4d4d;
+}
+
 .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
@@ -44,11 +48,12 @@ body {
 #wrapper-land-text {
     width: 100vw !important;
     position: absolute;
-    bottom: 0px;
+    bottom: 5%;
     right: 0px;
 }
 
 #wrapper-land-text h4 {
+    font-size: 1.8rem;
     color: white;
 }
 
@@ -147,7 +152,7 @@ section#about {
 /* CONTACTO */
 #wrapper-contacto {
     padding-top: 2.5em;
-    background-color: #01ad9d
+    background-color: #00ae9d
 }
 
 /* END CONTACTO */
